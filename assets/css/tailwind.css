@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+      @apply px-3 py-2 text-sm font-medium rounded-md text-white shadow-sm lg:px-8;
+    }
+  
+    .button--action {
+      @apply bg-indigo-600 hover:bg-indigo-500;
+    }
+  
+    .button--success {
+      @apply bg-teal-600 hover:bg-teal-500;
+    }
+  
+    .button--warning {
+      @apply bg-pink-600 hover:bg-pink-500;
+    }
+  }
