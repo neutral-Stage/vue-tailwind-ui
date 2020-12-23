@@ -14,7 +14,13 @@ module.exports = {
         "light-blue": colors.lightBlue,
         cyan: colors.cyan,
         teal: colors.teal,
-        "blue-gray": colors.blueGray
+        "blue-gray": colors.blueGray,
+        fuchsia: colors.fuchsia
+      },
+      boxShadow: {
+        "inner-sm": "inset 3px 4px 5px rgba(0,0,0,0.5);",
+        "inner-set": "inset 1px 1px 5px rgba(0,0,0,0.7);",
+        cute: "0px 3px 5px rgba(0,0,0,0.5);"
       }
     }
   },
